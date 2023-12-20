@@ -1,0 +1,5 @@
+export {default as Hero} from "./Hero"
+export {default as HomeScreen} from "./HomeScreen"
+export {default as JobComp} from "./JobComp"
+export {default as SearchComp} from "./SearchComp"
+export {default as ValueComp} from "./ValueComp"

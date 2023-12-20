@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: white;
+}
+
+li{
+  list-style: none;
+  cursor: pointer;
+  position: relative
+}
+
+li:hover::before{
+  position: absolute;
+  content: '';
+  height: 4px;
+  width: 100%;
+  background: #2a68ff;
+  right: 0;
+  color: #2a68ff;
+  bottom: -10px;
+}
+
+.icon{
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.card{
+  /* background: url(/src/assets/lyfecareMockup.jpg ); */
+  background: #F1F4F8;
+  width:96%
+}
